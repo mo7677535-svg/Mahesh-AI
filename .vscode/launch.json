@@ -1,0 +1,19 @@
+{
+  "version": "0.2.0",
+  "configurations": [
+    {
+      "name": "Run Browser Chatbot",
+      "type": "debugpy",
+      "request": "launch",
+      "program": "${workspaceFolder}/web_chatbot.py",
+      "console": "integratedTerminal"
+    },
+    {
+      "name": "Run Terminal Chatbot",
+      "type": "debugpy",
+      "request": "launch",
+      "program": "${workspaceFolder}/mini_chatbot.py",
+      "console": "integratedTerminal"
+    }
+  ]
+}
